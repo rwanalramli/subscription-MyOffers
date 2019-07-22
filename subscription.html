@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-cmpatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Subscription</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap_rtl.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+
+</head>
+
+<body class="subscription">
+    <section class="subscription">
+        <div class="container">
+            <div class="form-wrapper">
+                <img src="assets/img/logo-img.png">
+                <div class="row tth">
+                    <h5>الاشتـراكـــات</h5>
+                </div>
+
+                <div class="row ttd">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th>الاســـم</th>
+                                <td> اســم الاشـتــراك </td>
+                            </tr>
+                            <tr>
+                                <th>الـمـــدة </th>
+                                <td>6 شـهـــور</td>
+                            </tr>
+                            <tr>
+                                <th>الصلاحـيـــة</th>
+                                <td>غـيـــر مـحـدود</td>
+                            </tr>
+                            <tr>
+                                <th>الـسـعـــر</th>
+                                <td>85 ريــال سـعـودي</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="form-wrapper">
+                <img src="assets/img/logo-img.png">
+
+                <div class="row tth">
+                    <h5> تأكيد كود الخصم</h5>
+                </div>
+
+                <div class="row ttd">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th class="enterCode"> كود الخصم </th>
+                                <td class="enterCode">
+                                    <form>
+                                        <input type="text" class="form-input motion " type="text" />
+                                        <a type="submit" class="btn btn-primary code sendCode">تـأكـيـــد </a>
+                                        <div class="spinner-border text-warning" role="status">
+                                            <span class="sr-only">Loading...</span>
+                                        </div>
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>الـنـتـيـجـــة</th>
+                                <td><span id="apply-promo-code-result" data-result="0"></span></td>
+                            </tr>
+                            <tr>
+                                <th>إجـمـــالي الـسـعــــر </th>
+                                <td><span id="apply-promo-code-price">85 ريــال سـعـودي </span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="form-wrapper">
+                <img src="assets/img/logo-img.png">
+                <div class="row tth">
+                    <h5>الشـــراء</h5>
+                </div>
+
+                <div class="row ttd">
+                    <div class="col-sm-12">
+                        <h4 id="apply-promo-code-final">85 ريــال سـعـودي</h4>
+                    </div>
+                    <div class="col-sm-12">
+                        <p>رقــم هـاتـفــك لـــدى مــاي أوفــر</p>
+                        <p> e.g. 966xxxxxxxx</p>
+                        <input id="first" type="text" class="form-input motion" type="text" />
+                    </div>
+
+                    <div class="col-sm-12">
+                        <a class="btn btn-primary sendCode" id="buy-now"> اشترك الآن</a>
+
+                    </div>
+
+                </div>
+
+                <div class="col-sm-12">
+                    <a class="btn view" href="subscription-carousel.html">عــرض جـمـيـــع خـطـط الاشـتــراكـــات </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'DIN Next LT Arabic';
+    src: url('../fonts/DINNextLTArabic-Light.eot');
+    src: url('../fonts/DINNextLTArabic-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/DINNextLTArabic-Light.woff2') format('woff2'), url('../fonts/DINNextLTArabic-Light.woff') format('woff'), url('../fonts/DINNextLTArabic-Light.ttf') format('truetype'), url('../fonts/DINNextLTArabic-Light.svg#DIN Next LT Arabic') format('svg');
+}
+
+.no-focus-outline a:focus,
+.no-focus-outline button:focus {
+    outline: none;
+}
+
+
+/* start subscription Page */
+
+.subscription {
+    background-color: #f86500;
+    font-family: 'DIN Next LT Arabic';
+    text-align: center;
+}
+
+.subscription h5 {
+    color: #f86500;
+    font-size: 31px;
+    /* margin-bottom: 30px; */
+    font-weight: 600;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.subscription .form-wrapper {
+    text-align: center;
+    background-color: #ffffff;
+    max-width: 60%;
+    min-width: 300px;
+    padding: 40px 30px 10px 30px;
+    margin: 60px auto;
+    border-radius: 5px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+}
+
+.subscription img {
+    width: 140px;
+    margin-bottom: 50px;
+}
+
+.subscription .tth {}
+
+.subscription .ttd {}
+
+.subscription .form-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.subscription .focused .form-label {
+    transform: translateY(-125%);
+    font-size: 13px;
+}
+
+.subscription .table tr {
+    border-bottom: 1px solid rgba(248, 101, 0, 0.4);
+}
+
+.subscription .table tr:last-child {
+    border-bottom: none;
+}
+
+.subscription .table td,
+.table th {
+    padding: 0;
+    border: none;
+    padding: 30px 50px 25px 50px;
+}
+
+.subscription .table th {
+    text-align: right;
+    font-size: 20px;
+}
+
+.subscription .table td {
+    text-align: center;
+    font-size: 18px;
+}
+
+.subscription .table th.enterCode {
+    padding: 34px 50px 0px 50px;
+}
+
+.subscription .table td.enterCode {
+    text-align: right;
+    padding-right: 0px;
+    padding-left: 52px;
+}
+
+.subscription .table td.enterCode .form-input {
+    position: relative;
+    padding: 0 5px;
+    margin: 0;
+    width: 45%;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 3px 0 0 #f86500;
+    transition: box-shadow 150ms ease-out;
+    direction: ltr;
+    text-align: center;
+}
+
+.subscription .form-input.filled {
+    box-shadow: 0 1px 0 0 #f86500;
+}
+
+.subscription h4 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.subscription p {
+    font-size: 18px;
+}
+
+.subscription .btn-primary.code {
+    margin: auto 20px 10px 5px;
+    padding: 5px 0;
+    background-color: #f86500;
+    border-color: #f86500;
+    width: 28%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.subscription .btn-primary:hover {
+    background-color: #333;
+    border-color: #333;
+}
+
+.subscription .btn-primary:focus {
+    background: #333;
+}
+
+.subscription .form-input {
+    position: relative;
+    padding: 0 5px;
+    margin: 0;
+    width: 45%;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 3px 0 0 #f86500;
+    transition: box-shadow 150ms ease-out;
+    direction: ltr;
+    text-align: center;
+}
+
+.subscription .btn-primary {
+    margin: 30px 0px;
+    /* margin-top: 20px; */
+    padding: 5px 0;
+    background-color: #f86500;
+    border-color: #f86500;
+    width: 30%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff !important;
+}
+
+.subscription .spinner-border {
+    height: 23px;
+    width: 23px;
+    display: inline-block;
+    visibility: hidden;
+}
+
+.subscription .btn.view {
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* --------------------------------------------------------- */
+
+.subscription-carousel .owl-carousel {
+    background: #ffffff;
+    margin: auto;
+}
+
+.subscription-carousel .form-wrapper {
+    height: 1020px;
+    text-align: center;
+    background-color: #ffffff;
+    max-width: 100%;
+    min-width: 300px;
+    padding: 0 40px;
+    margin: 60px auto;
+    border-radius: 5px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+}
+
+.subscription-carousel img.logo {
+    width: 160px;
+    margin: 80px auto;
+}
+
+.subscription-carousel .owl-nav {
+    margin-top: -210px;
+    z-index: 999;
+}
+
+.subscription-carousel .owl-carousel .owl-nav button.owl-next,
+.subscription-carousel .owl-carousel .owl-nav button.owl-prev {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+    opacity: 0.8;
+    background: #f86500;
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+}
+
+.subscription-carousel .owl-carousel .owl-nav button.owl-next {
+    margin-left: 475px;
+    position: relative;
+}
+
+.subscription-carousel .owl-carousel .owl-nav button.owl-next:hover {
+    opacity: 1;
+}
+
+.subscription-carousel .owl-carousel .owl-nav button.owl-prev {
+    margin-right: 475px;
+    position: relative;
+}
+
+.subscription-carousel .owl-carousel .owl-nav button.owl-prev:hover {
+    opacity: 1;
+}
+
+.subscription-carousel .owl-carousel .owl-nav button.owl-next span {
+    position: absolute;
+    top: -36px;
+    left: 11px;
+}
+
+.subscription-carousel .owl-carousel .owl-nav button.owl-prev span {
+    position: absolute;
+    top: -36px;
+    right: 11px;
+}
+
+.subscription-carousel .owl-carousel button.owl-dot {}
+
+.subscription-carousel .owl-carousel .card {}
+
+.subscription-carousel h6 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 21px;
+    direction: rtl;
+}
+
+.subscription-carousel p.price {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.subscription-carousel p {
+    direction: rtl;
+}
+
+.subscription-carousel .btn-primary {
+    margin: 30px auto;
+    width: 35%;
+    padding: 6px 0;
+}
+
+
+/* End subscription Page */

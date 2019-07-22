@@ -1,0 +1,277 @@
+/* MEDIA QUERY */
+
+
+/*---------- XS -------------- XS --------------- XS --------------- XS ------------------- XS --------- */
+
+@media(min-width: 320px) and (max-width: 767px) {
+    /* start subscription Page */
+    .subscription {}
+    .subscription h5 {
+        font-size: 23px;
+    }
+    .subscription .form-wrapper {
+        padding: 0;
+        margin: 40px auto;
+        min-width: 100%;
+    }
+    .subscription img {
+        margin: 15px;
+    }
+    .subscription .card img {
+        margin: 0px;
+    }
+    .subscription .tth {}
+    .subscription .ttd {}
+    .subscription .form-group {}
+    .subscription .focused .form-label {}
+    .subscription .table tr {}
+    .subscription .table td,
+    .table th {}
+    .subscription .table th {
+        padding: 5px 30px 14px 0;
+        font-size: 18px;
+    }
+    .subscription .table td {
+        text-align: right;
+        padding: 0;
+        padding: 9px 0 15px 0;
+        font-size: 17px;
+    }
+    .subscription .table th.enterCode {
+        padding: 5px 30px 14px 0px;
+        width: 50%;
+    }
+    .subscription .table td.enterCode {}
+    .subscription .table td.enterCode .form-input {
+        display: block;
+        width: 78%;
+        margin-bottom: 20px;
+    }
+    .subscription .form-input.filled {}
+    .subscription h4 {
+        font-size: 22px;
+    }
+    .subscription-carousel h6 {
+        margin: 20px auto;
+    }
+    .subscription p {
+        font-size: 16px;
+    }
+    .subscription .btn-primary.code {
+        display: inline-block;
+        width: 78%;
+        margin: 0;
+        margin-top: 0px;
+        font-size: 16px;
+        padding: 2px 0;
+    }
+    .subscription .spinner-border {
+        /* padding-top: 0px; */
+        height: 18px;
+        width: 18px;
+    }
+    .subscription .form-input {}
+    .subscription .btn-primary {
+        display: block;
+        width: 80%;
+        margin: 20px auto;
+        /* margin: 0; */
+        /* margin-top: 20px; */
+    }
+    .subscription .btn.view {
+        font-size: 15px;
+    }
+    /* --------------------------------------------------------- */
+    .subscription-carousel .owl-carousel {}
+    .subscription-carousel .form-wrapper {
+        height: 700px;
+        margin-bottom: 40px;
+    }
+    .subscription-carousel img.logo {
+        width: 140px;
+        margin: 40px auto;
+    }
+    .subscription-carousel .owl-nav {}
+    .subscription-carousel .owl-carousel .owl-nav button.owl-next,
+    .subscription-carousel .owl-carousel .owl-nav button.owl-prev {
+        font-size: 50px;
+        height: 35px;
+        width: 35px;
+    }
+    .subscription-carousel .owl-carousel .owl-nav button.owl-next {
+        margin-left: 90px;
+    }
+    .subscription-carousel .owl-carousel .owl-nav button.owl-prev {
+        margin-right: 90px;
+    }
+    .subscription-carousel .owl-carousel .owl-nav button.owl-next span {
+        top: -29px;
+        left: 12px;
+    }
+    .subscription-carousel .owl-carousel .owl-nav button.owl-prev span {
+        top: -29px;
+        right: 12px;
+    }
+    .subscription-carousel .owl-carousel button.owl-dot {}
+    .subscription-carousel .owl-carousel .card {
+        border: none;
+    }
+    .subscription-carousel h6 {
+        font-size: 20px;
+    }
+    .subscription-carousel p.price {}
+    .subscription-carousel p {
+        font-size: 17px;
+    }
+    .subscription-carousel .btn-primary {
+        width: 80%;
+    }
+    /* End subscription Page */
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 360px) and (max-width: 767px) {}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 375px) and (max-width: 767px) {}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 411px) and (max-width: 767px) {}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 414px) and (max-width: 767px) {}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 568px) and (max-width: 767px) {
+    .subscription-carousel .form-wrapper {
+        height: 800px;
+    }
+    .subscription .table th {
+        padding-right: 90px;
+    }
+    .subscription .table th.enterCode {
+        padding-right: 90px;
+    }
+    .subscription .table td {}
+    .subscription-carousel .owl-carousel .owl-nav button.owl-next {
+        margin-left: 200px;
+    }
+    .subscription-carousel .owl-carousel .owl-nav button.owl-prev {
+        margin-right: 200px;
+    }
+}
+
+
+/* ------- SM ------------- SM ------------- SM ------------- SM ------------- SM ------------- SM ------ */
+
+@media(min-width: 640px) and (max-width: 767px) {}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 667px) and (max-width: 767px) {}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 731px) and (max-width: 767px) {}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 736px) and (max-width: 767px) {}
+
+
+/* ----- MD --------- MD --------- MD --------- MD --------- MD --------- MD --------- MD --------- MD ----*/
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .subscription .form-wrapper {
+        min-width: 100%;
+    }
+    .subscription h5 {
+        font-size: 35px;
+    }
+    .subscription .table th {
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    .subscription .table th.enterCode {
+        padding-left: 20px;
+    }
+    .subscription .table td {
+        font-size: 25px;
+    }
+    .subscription .btn-primary.code {
+        padding: 7px 0;
+        width: 30%;
+        font-size: 25px;
+    }
+    .subscription-carousel .form-wrapper {
+        height: 1060px;
+    }
+    .subscription-carousel h6 {
+        font-size: 30px;
+    }
+    .subscription p {
+        font-size: 25px;
+    }
+    .subscription .spinner-border {
+        height: 40px;
+        width: 40px;
+    }
+    .subscription .btn-primary {
+        padding: 12px 0;
+        width: 45%;
+        font-size: 25px;
+    }
+    .subscription-carousel p.price {
+        font-size: 25px;
+    }
+    .subscription .btn.view {
+        font-size: 25px;
+    }
+    .subscription-carousel .btn-primary {
+        margin: 30px auto;
+        width: 40%;
+        padding: 12px 0;
+        /* padding: 7px 0; */
+        font-size: 25px;
+    }
+    .subscription-carousel .owl-carousel .owl-nav button.owl-next,
+    .subscription-carousel .owl-carousel .owl-nav button.owl-prev {
+        height: 50px;
+        width: 50px;
+    }
+    .subscription-carousel .owl-carousel .owl-nav button.owl-next {
+        margin-left: 230px;
+    }
+    .subscription-carousel .owl-carousel .owl-nav button.owl-prev {
+        margin-right: 230px;
+    }
+    .subscription-carousel .owl-nav {
+        margin-top: -300px;
+        z-index: 999;
+    }
+    .subscription-carousel .owl-carousel .owl-nav button.owl-next span {
+        position: absolute;
+        top: -37px;
+        left: 15px;
+        font-size: 67px;
+    }
+    .subscription-carousel .owl-carousel .owl-nav button.owl-prev span {
+        position: absolute;
+        top: -37px;
+        right: 15px;
+        font-size: 67px;
+    }
+}
